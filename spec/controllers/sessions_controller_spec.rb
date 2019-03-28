@@ -38,7 +38,7 @@ RSpec.describe SessionsController, type: :controller do
       @request.env['omniauth.auth'] = auth
       get :create
       expect(@request.session[:user_id]).to eq(1)
-    end
+    end 
 
     it "create the user correctly" do
       name = 'Blake Johnson'
