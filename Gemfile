@@ -15,7 +15,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+# access to OAuth2
+gem 'omniauth'
+# access to Facebook specific OAuth2
+gem 'omniauth-facebook'
+# dotenv allows to create a .env file that can be added to the .gitignore file in order
+# to add your app key and secret out of reach of someone having access to your repo
+gem 'dotenv-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
