@@ -8,6 +8,9 @@ logs
 *.log
 npm-debug.log*
 
+# Ignore your environment keys
+.env
+
 # Runtime data
 pids
 *.pid
