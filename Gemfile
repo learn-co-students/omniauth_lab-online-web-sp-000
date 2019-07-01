@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 gem 'bootsnap'
@@ -42,6 +46,7 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
+  gem 'pry'
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
