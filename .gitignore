@@ -1,5 +1,8 @@
 # Created by https://www.gitignore.io/api/node
 
+.env
+*.env
+
 .DS_Store
 
 ### Node ###
