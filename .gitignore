@@ -6,6 +6,8 @@
 # Logs
 logs
 *.log
+*.env
+
 npm-debug.log*
 
 # Runtime data
