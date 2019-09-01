@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
 gem 'bootsnap'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~>1.3.6'
@@ -42,6 +45,10 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
+end
+
+group :development do
+  gem 'web-console', '3.6'
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
