@@ -1,27 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@TruePieLover 
-27
-073learn-co-students/omniauth_lab-online-web-sp-000
- Code Issues 0 Pull requests 70 Actions Projects 0 Security Insights
-omniauth_lab-online-web-sp-000/Gemfile.lock
-@jonathanwong110 jonathanwong110 Done.
-16beae1 on Sep 16
-@queerviolet@jonathanwong110@gj@DanielSeehausen
-210 lines (206 sloc)  5.04 KB
-  
-Jump to definition is available!Beta
-Navigate your code with ease. In select public repositories, you can now click on function and method calls to jump to their definitions in the same repository. Learn more
-
- Jump to definition is still being calculated for this commit. Check back in a bit. Beta
-
-Learn more or give us feedback
 GEM
   remote: https://rubygems.org/
   specs:
