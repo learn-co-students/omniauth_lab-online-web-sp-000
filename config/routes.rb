@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   get '/home' => 'welcome#home'
 
+  resources :sessions
+  resources :users 
+
   match '/auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
 
 end

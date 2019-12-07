@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'omniauth', '~> 1.9'
+gem 'omniauth-github', '~> 1.3'
 
 
 # Use ActiveModel has_secure_password
