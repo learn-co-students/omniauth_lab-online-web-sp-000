@@ -76,6 +76,7 @@
     <orderEntry type="library" scope="PROVIDED" name="oauth2 (v1.4.3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="omniauth (v1.9.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="omniauth-github (v1.3.0, rbenv: 2.7.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="omniauth-google-oauth2 (v0.8.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="omniauth-oauth2 (v1.6.0, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.3, rbenv: 2.7.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.12.2, rbenv: 2.7.0) [gem]" level="application" />
