@@ -8,6 +8,8 @@
   <pre>
     <%= session[:omniauth_data] %>
   </pre>
+  <br>
+  <%= link_to "Log out", logout_path, method: :delete %>
 <% else %>
   <p>No authentication information is available.</p>
   <p>Try <%= link_to 'Signing in with the developer strategy', '/auth/developer'%>.</p>
