@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
     # for demonstration purposes. We want to keep this data somewhere so that,
     # after redirect, we have access to the returned data
     session[:name] = request.env['omniauth.auth']['info']['name']
-    session[:omniauth_data] = request.env['omniauth.auth']
+    session[:github_data] = request.env['omniauth.auth']
 
     # Ye olde redirect
     redirect_to root_path
