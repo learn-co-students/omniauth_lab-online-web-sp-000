@@ -1,9 +1,10 @@
+require 'pry'
 class SessionsController < ApplicationController
   # This is required because of a quirk the "developer" authentication
   # strategy. We'll remove this when we move to a "real" provider.
   skip_before_action :verify_authenticity_token, only: :create
 
-  def xcreate
+  def create
     # After entering a name and email value in the /auth/developer
     # path and submitting the form, you will see a pretty-print of
     # the authentication data object that comes from the "developer"
@@ -16,7 +17,6 @@ class SessionsController < ApplicationController
     # after redirect, we have access to the returned data
     session[:name] = request.env['omniauth.auth']['info']['name']
     session[:omniauth_data] = request.env['omniauth.auth']
-
     # Ye olde redirect
     redirect_to root_path
   end
