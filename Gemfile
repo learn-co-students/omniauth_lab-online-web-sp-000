@@ -63,3 +63,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# provided by the error when ran 'learn'
+# gem 'rspec-core'
