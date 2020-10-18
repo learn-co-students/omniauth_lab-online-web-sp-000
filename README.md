@@ -5,7 +5,7 @@
 1. Identify "Strategies" in Omniauth
 2. Use the Developer Strategy with Omniauth
 3. Use Omniauth to provide OAuth authentication in a Rails server through a
-   third party API
+   third party API  
 
 ## Introduction
 
