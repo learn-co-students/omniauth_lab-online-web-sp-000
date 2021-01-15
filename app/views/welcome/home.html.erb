@@ -7,6 +7,7 @@
   The raw data returned from Omniauth were:
   <pre>
     <%= session[:omniauth_data] %>
+    <%= link_to "logout", logout_path %>
   </pre>
 <% else %>
   <p>No authentication information is available.</p>
