@@ -7,9 +7,14 @@
   The raw data returned from Omniauth were:
   <pre>
     <%= session[:omniauth_data] %>
+    <%= link_to "return to pre-authorization", 'session#reset' %>
   </pre>
 <% else %>
   <p>No authentication information is available.</p>
   <p>Try <%= link_to 'Signing in with the developer strategy', '/auth/developer'%>.</p>
   <p>Try <%= link_to 'Signing in with the GitHub strategy', '/auth/github'%>.</p>
 <% end %>
+
+<p>for examples: </p>
+
+
