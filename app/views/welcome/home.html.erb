@@ -1,3 +1,5 @@
+ <a href="/auth/github">Signing in with the GitHub strategy</a>
+ <a href="/auth/developer">Signing in with the developer strategy</a>
 <p>We will put omniauth authentication data here (if present)</p>
 
 <% if name = session[:name] %>
@@ -10,6 +12,5 @@
   </pre>
 <% else %>
   <p>No authentication information is available.</p>
-  <p>Try <%= link_to 'Signing in with the developer strategy', '/auth/developer', method: :post %>.</p>
-  <p>Try <%= link_to 'Signing in with the GitHub strategy', '/auth/github', method: :post %>.</p>
+
 <% end %>
