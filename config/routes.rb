@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # Add your routes here
+  root 'welcome#home'
+  match '/auth/:github/callback', to: 'sessions#create', via: [:get, :post]
+  #post '/auth/developer', to: 'welcome#home'#sessions#create'
 end
