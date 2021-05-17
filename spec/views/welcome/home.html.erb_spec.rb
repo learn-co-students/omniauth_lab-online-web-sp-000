@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "welcome/home", type: :view, developer_strategy: true  do
   it 'offers signup with developer' do
     render
-    expect(rendered).to include('<a href="/auth/developer">Signing in with the developer strategy</a>')
+    expect(rendered).to include('<a hraef="/auth/developer">Signing in with the developer strategy</a>')
   end
 
   it 'offers signup with GitHub' do
